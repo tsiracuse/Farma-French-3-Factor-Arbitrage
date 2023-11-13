@@ -1,3 +1,7 @@
+option 1 copy and paste:
+
+to run this code, copy and paste it into google colab or any jupyter notebook and make sure that the the 
+
 Fama-French Three-Factor Arbitrage Finder
 
 Project Description
