@@ -39,4 +39,5 @@ To analyze different stocks or timeframes:
 
 - Update the tickers list with the new ticker symbols.
 - Adjust the date range in the yf.download function call.
-
+Here is an example where X_stock1 is the weight corresponding the first emelemtn in the tickers list excluding the target stock 
+<img width="1215" alt="Screen Shot 2023-11-13 at 6 57 41 PM" src="https://github.com/tsiracuse/Farma-French-3-Factor-Arbitrage/assets/80054149/d7c7e711-8565-4dd5-a793-a4ffbe9ca32a">
