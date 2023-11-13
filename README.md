@@ -1,12 +1,16 @@
-option 1 copy and paste:
 
-to run this code, copy and paste it into google colab or any jupyter notebook and make sure that the the 
 
-Fama-French Three-Factor Arbitrage Finder
+To run this code, copy and paste it into google colab or any jupyter notebook and make sure that the Developed_3_Factors 2.csv is in the repository
 
-Project Description
+The notebook fama-french-3-factor-arbitrage-algorithm.ipynb encapsulates a robust method for arbitrage detection utilizing the Fama-French three-factor model. It orchestrates the entire process from data procurement and preprocessing to computation and analysis. Initially, it sources the Fama-French factor data, incorporating market risk, size, and value premiums alongside the risk-free rate. Subsequent data cleaning ensures accuracy, especially concerning any missing values denoted by -99.99.
 
-This project provides a Python script that automates the creation of a tracking portfolio based on the Fama-French three-factor model (Market Risk, Size, and Value) to uncover potential arbitrage opportunities. It dynamically fetches historical stock data, computes factor betas, and determines the optimal weights for a tracking portfolio.
+A regression analysis for each selected stock against these factors yields beta coefficients, encapsulating each stock's sensitivity to market variables. Leveraging these betas, the script formulates factor equations and computes the expected returns for the stocks under consideration.
+
+The core of this algorithm lies in the strategic assembly of an arbitrage portfolio. Through a systems of equations solver, it meticulously calculates the precise weights of the selected stocks and the risk-free asset, aiming to match a target stock's factor exposures. The concluding step involves the computation of the portfolio's alpha to identify potential arbitrage opportunities, thus providing a theoretical yet insightful lens into market inefficiencies
+
+Relevant Equations 
+
+<img width="718" alt="Screen Shot 2023-11-13 at 6 54 33 PM" src="https://github.com/tsiracuse/Farma-French-3-Factor-Arbitrage/assets/80054149/0d7d0269-6c9c-465a-9040-dc280cf2533a">
 
 Prerequisites
 Before running the script, ensure you have the following:
